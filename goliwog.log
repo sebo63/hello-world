@@ -1,0 +1,20 @@
+{
+	"log": "[\"2017-09-05T16:00:05.438Z\"] uaa - ???? [http-nio-8443-exec-76] ....  INFO --- Audit: TokenIssuedEvent ('[\"scim.userids\"]'): principal=cloud_controller_username_lookup, origin=[caller=cloud_controller_username_lookup, details=(remoteAddress=10.238.174.106, clientId=cloud_controller_username_lookup)], identityZoneId=[hcf-zur1]\n",
+	"stream": "stdout",
+	"docker": {
+		"container_id": "62668daaff2c0d7987e468c544ff803832469bec5d33c7641ef1525444134b77"
+	},
+	"kubernetes": {
+		"namespace_name": "hcp",
+		"pod_name": "ident-api-0-1542131113-0rqv8",
+		"pod_id": "f816c1fb-8c96-11e7-88db-005056a217da",
+		"labels": {
+			"hcpCompIdx": "0",
+			"hcpCompName": "ident-api",
+			"pod-template-hash": "1542131113"
+		},
+		"host": "hcp-kubernetes-node-8b123b41-6be1-11e7-a15d-005056a2abb2",
+		"container_name": "ident-api"
+	},
+	"fluentd_tmp_tag": "hcp.ident-api-0.ident-api"
+}
